@@ -1,0 +1,11 @@
+{
+  "name": "crypto-arb-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Paper-trading triangular arbitrage scanner for Kraken and Binance.US",
+  "scripts": {
+    "start": "node src/index.mjs"
+  },
+  "engines": { "node": ">=22" }
+}

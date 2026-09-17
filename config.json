@@ -1,0 +1,17 @@
+{
+  "mode": "paper",
+  "port": 5230,
+  "startBalanceUsd": 1000,
+  "maxTradeUsd": 1000,
+  "minTradeUsd": 10,
+  "minNetProfitPct": 0.05,
+  "latencyMs": 300,
+  "cooldownMs": 2000,
+  "scanIntervalMs": 250,
+  "staleQuoteMs": 5000,
+  "startAssets": ["USD"],
+  "exchanges": {
+    "kraken": { "enabled": true, "takerFeePct": 0.40 },
+    "binanceus": { "enabled": true, "takerFeePct": 0.10, "pollIntervalMs": 1000 }
+  }
+}

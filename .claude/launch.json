@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "crypto-arb-bot",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["src/index.mjs"],
+      "port": 5230
+    }
+  ]
+}
