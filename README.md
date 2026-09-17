@@ -32,7 +32,7 @@ Sonra tarayıcıda: http://localhost:5230
 | `latencyMs` | Emir gecikmesi simülasyonu (ms) |
 | `exchanges.*.takerFeePct` | Borsanın işlem başı komisyonu (%) — hesabın büyüyünce düşer, buradan güncelle |
 
-Komisyon varsayılanları: Kraken Pro giriş seviyesi %0,40, Binance.US %0,10.
+Komisyon varsayılanları (Eylül 2026, borsaların kendi fiyat sayfalarından): Kraken Pro giriş seviyesi taker %0,80, Binance.US taker %0,02.
 
 ## Dosyalar
 

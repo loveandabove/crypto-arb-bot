@@ -9,9 +9,18 @@
   "cooldownMs": 2000,
   "scanIntervalMs": 250,
   "staleQuoteMs": 5000,
-  "startAssets": ["USD"],
+  "startAssets": [
+    "USD"
+  ],
   "exchanges": {
-    "kraken": { "enabled": true, "takerFeePct": 0.40 },
-    "binanceus": { "enabled": true, "takerFeePct": 0.10, "pollIntervalMs": 1000 }
+    "kraken": {
+      "enabled": true,
+      "takerFeePct": 0.8
+    },
+    "binanceus": {
+      "enabled": true,
+      "takerFeePct": 0.02,
+      "pollIntervalMs": 1000
+    }
   }
 }
