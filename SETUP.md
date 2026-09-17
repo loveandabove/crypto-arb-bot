@@ -12,19 +12,15 @@ node --version
 
 Sürüm çıkmıyorsa: https://nodejs.org adresinden "LTS" sürümünü indir ve kur (ya da `brew install node`).
 
-## 2. Kodu indir
+## 2. Kur (tek satır)
+
+Terminal'e şunu yaz, Enter:
 
 ```bash
-git clone https://github.com/loveandabove/crypto-arb-bot.git ~/Projects/crypto-arb-bot
+curl -fsSL https://raw.githubusercontent.com/loveandabove/crypto-arb-bot/main/scripts/bootstrap.sh | bash
 ```
 
-## 3. Servisi kur
-
-```bash
-bash ~/Projects/crypto-arb-bot/scripts/install-service.sh
-```
-
-Çıktıdaki adresi (örn. `http://Gadis-Mac-mini.local:5230`) telefon/laptop tarayıcısına yaz. Mac mini'nin kendisinde `http://localhost:5230`.
+Kodu indirir, servisi kurar, sonunda bakılacak adresi yazar (örn. `http://Gadis-Mac-mini.local:5230`). Mac mini'nin kendisinde `http://localhost:5230`.
 
 ## Mac mini uyumasın
 
@@ -32,9 +28,7 @@ Sistem Ayarları → Enerji → "Ekran kapalıyken bilgisayarın otomatik uyumas
 
 ## Güncelleme
 
-```bash
-cd ~/Projects/crypto-arb-bot && git pull && bash scripts/install-service.sh
-```
+Aynı tek satırı tekrar çalıştır; veriler korunur.
 
 ## Durdurma
 
